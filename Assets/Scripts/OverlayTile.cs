@@ -44,7 +44,7 @@ namespace finished3
             else
             {
                 GetComponentsInChildren<SpriteRenderer>()[1].color = new Color(1, 1, 1, 1);
-                GetComponentsInChildren<SpriteRenderer>()[1].sprite = arrows[(int)d];
+                GetComponentsInChildren<SpriteRenderer>()[1].sprite = arrows[(int)d-1];
                 GetComponentsInChildren<SpriteRenderer>()[1].sortingOrder = gameObject.GetComponent<SpriteRenderer>().sortingOrder;
             }
         }
